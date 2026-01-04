@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    background: #eee;
+    font-family: Arial;
+}
+
+#game {
+    width: 800px;
+    height: 300px;
+    background: white;
+    border: 2px solid black;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#dino { width: 50px; height: 50px; background: rgba(0, 225, 255, 1); position: absolute; bottom: 0; left: 50px; }
+
+
+#zombie {
+    width: 50px;
+    height: 70px;
+    background: purple;
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+}
+#zombie {
+    width: 50px;
+    height: 80px;
+    background: #9933ff;
+    border: 3px solid #6600cc;
+    position: absolute;
+    bottom: 0;
+    left: 900px; /* Startar utanför till höger */
+    border-radius: 5px;
+}
+
+
+.block {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#mobileControls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#mobileControls button {
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    border-radius: 15px;
+    border: none;
+    background: #333;
+    color: white;
+    touch-action: manipulation; /* SUPER VIKTIGT */
+}
+
