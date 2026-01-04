@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Dino Zombie Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Dino Zombie Game</h1>
+
+    <button id="startBtn">Starta Spelet</button>
+    <button id="stopBtn">Stoppa Spelet</button>
+    <button id="deleteWorldBtn">Ta bort mapp</button>
+
+    <input id="searchWorld" placeholder="Sök mapp...">
+    <div id="worldList"></div>
+
+    <div id="game">
+        <div id="dino"></div>
+        <div id="zombie"></div>
+    </div>
+
+    <label>Välj färg:</label>
+    <input type="color" id="colorPicker" value="#ff0000">
+
+    <button id="newWorldBtn">Ny mapp</button>
+    <button id="saveWorldBtn">Spara</button>
+    <button id="loadWorldBtn">Ladda</button>
+
+    <select id="worldSelect"></select>
+
+    <audio id="xc" src="minecraft-theme.mp3" loop style="display:none"></audio>
+
+    <div id="mobileControls">
+        <button id="leftBtn">◀</button>
+        <button id="rightBtn">▶</button>
+        <button id="attackBtn">⚔</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
+
+
+
+
